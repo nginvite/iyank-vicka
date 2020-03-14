@@ -230,17 +230,43 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event,
 .fh5co-bg {
   background-size: cover;
-  background-position: top center;
+  background-position: center !important;
   background-repeat: no-repeat;
   position: relative;
+  width: 100%;
+
+
+  /* height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center !important;
+  width: 100%; */
 }
 
-.fh5co-bg {
+/* //header baru */
+.fh5co-bg-baru {
+  background-position: center center;
+  background-size: 100;
+  background-repeat:no-repeat;
+  height: 900;
+  width: 100%;
+  /* float: left; */
+  position: relative;
+
+  /* height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%; */
+}
+
+/* .fh5co-bg {
   background-position: center center;
   width: 100%;
   float: left;
   position: relative;
-}
+} */
 
 .fh5co-video {
   height: 450px;
@@ -304,6 +330,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  background-position: center !important;
   width: 100%;
 }
 .fh5co-cover .overlay {
@@ -402,6 +429,8 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-event .display-t,
   #fh5co-event .display-tc {
     height: inherit;
+
+    
   }
 }
 #fh5co-counter .event-wrap,
@@ -2287,6 +2316,7 @@ nav a.sidenav-trigger-first i,
     position: absolute;
     content: "";
     background-image: url(../img/bg-pattern.png);
+    /* background-position: center; */
     width: 100%;
     height: 100%;
   }
